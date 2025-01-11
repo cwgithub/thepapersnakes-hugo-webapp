@@ -2,7 +2,7 @@ baseURL = 'https://thepapersnakes.co.uk/'
 languageCode = 'en'
 title = 'thepapersnakes'
 theme = "infinity"
-
+publishDir = "public"
 
 # HTML before the closing </head>
 [params]
