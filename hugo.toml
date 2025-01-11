@@ -1,0 +1,4 @@
+baseURL = 'https://thepapersnakes.co.uk/'
+languageCode = 'en'
+title = 'thepapersnakes'
+theme = "infinity"
