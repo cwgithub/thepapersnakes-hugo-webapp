@@ -4,6 +4,8 @@ title = 'thepapersnakes'
 theme = "infinity"
 publishDir = "public"
 
+
+
 # HTML before the closing </head>
 [params]
 customHead = ""
