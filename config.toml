@@ -1,6 +1,6 @@
 baseURL = 'https://nice-beach-096bc3903.4.azurestaticapps.net'
 languageCode = 'en'
-title = 'thepapersnakes'
+title = 'Theapersnakes'
 theme = "infinity"
 publishDir = "public"
 
@@ -58,9 +58,11 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-strategy"
-title = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+title = "Glimmer of Hope"
+description = "Blah, blah, blah ..."
 delay = "0s"
+
+
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
