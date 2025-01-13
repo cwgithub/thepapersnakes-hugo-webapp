@@ -1,0 +1,34 @@
+
+
+
+{{ if .Site.Params.video.enable }}
+    {{"<!-- video Section -->" | safeHTML}}
+    <section id="{{ i18n "video" | urlize }}" class="video section">
+
+        <div class="container">
+            <div class="row">
+                <div class="heading wow fadeInUp">
+                    {{ with .Site.Params.video.title }}
+                        <h2>{{ . }}</h2>
+                    {{ end }}
+                    {{ with .Site.Params.video.subtitle }}
+                        <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+
+                {{ range .Site.Params.video.videoItem }}
+                    <div class="col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="{{ .delay }}">
+                        <div class="block">
+                            <i class="{{ .icon }}"></i>
+                            <h3>{{ .title }}</h3>
+                            <p>{{ .description }}</p>
+                            {{ if .youtube }}
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .youtube }}" frameborder="0" allowfullscreen></iframe>
+                            {{ end }}
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+{{ end }}

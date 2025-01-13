@@ -14,7 +14,7 @@ customHead = ""
 logo = "images/logo.png"
 home = "Home"
 about = "About"
-service = "Services"
+song = "Songs"
 contact = "Contact"
 
 # Hero Area
@@ -48,11 +48,11 @@ image = "images/about/2.jpg"
 
 
 # Service Section
-[params.service]
+[params.song]
 enable = true
 title = "Find Better Solutions Build Better Products"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
-[[params.service.serviceItem]]
+[[params.song.songItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
@@ -61,7 +61,7 @@ title = "Fully Responsive"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 delay = "0s"
 
-[[params.service.serviceItem]]
+[[params.song.songItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
@@ -70,7 +70,7 @@ title = "Speed Optimized"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 delay = "0.2s"
 
-[[params.service.serviceItem]]
+[[params.song.songItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
@@ -79,7 +79,7 @@ title = "Tons of Feature"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 delay = "0.4s"
 
-[[params.service.serviceItem]]
+[[params.song.songItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
@@ -88,7 +88,7 @@ title = "Fully SEO Optimized"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 delay = "0.6s"
 
-[[params.service.serviceItem]]
+[[params.song.songItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
@@ -97,7 +97,7 @@ title = "Fully Responsive"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 delay = "0.8s"
 
-[[params.service.serviceItem]]
+[[params.song.songItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
@@ -106,7 +106,7 @@ title = "Speed Optimized"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 delay = "1s"
 
-[[params.service.serviceItem]]
+[[params.song.songItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
@@ -115,7 +115,7 @@ title = "Tons of Feature"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 delay = "1.2s"
 
-[[params.service.serviceItem]]
+[[params.song.songItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one

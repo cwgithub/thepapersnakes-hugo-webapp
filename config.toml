@@ -15,7 +15,8 @@ customHead = ""
 logo = "images/logo.png"
 home = "Home"
 about = "About"
-service = "Services"
+video = "Video"
+song = "Song"
 contact = "Contact"
 
 # Hero Area
@@ -48,84 +49,74 @@ image = "images/about/3.jpg"
 image = "images/about/2.jpg"
 
 
-# Service Section
-[params.service]
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+
+# Video Section
+[params.video]
 enable = true
-title = "Find Better Solutions Build Better Products"
+title = "Our Videos"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-strategy"
+
+[[params.video.videoItem]]
+youtube = "rjWnV538feA"
 title = "Glimmer of Hope"
 description = "Blah, blah, blah ..."
-delay = "0s"
+delay = "0.3s"
 
-
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-circle-compass"
-title = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "0.2s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-anchor2"
-title = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "0.4s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-globe"
-title = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+[[params.video.videoItem]]
+youtube = "pobO-P0V6yQ"
+title = "Red Jeans"
+description = "Blah, blah, blah ..."
 delay = "0.6s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-strategy"
-title = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "0.8s"
+[[params.video.videoItem]]
+youtube = "tCvgoiFawVU"
+title = "Green Unpleasant"
+description = "Blah, blah, blah ..."
+delay = "0.9s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-circle-compass"
-title = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay = "1s"
-
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-anchor2"
-title = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+[[params.video.videoItem]]
+youtube = "BYUVpkzAA-8"
+title = "Beat in the East"
+description = "Blah, blah, blah ..."
 delay = "1.2s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon = "tf-globe"
-title = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+[[params.video.videoItem]]
+youtube = "gf3axNejLBA"
+title = "On My Own"
+description = "Blah, blah, blah ..."
 delay = "1.5s"
+
+[[params.video.videoItem]]
+youtube = "YUtuutXIx5s"
+title = "Hold On"
+description = "Blah, blah, blah ..."
+delay = "1.8"
+
+
+
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+
+
+# Song Section
+[params.song]
+enable = true
+title = "Our Songs"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+
+[[params.song.songItem]]
+title = "Glimmer of Hope"
+description = "Blah, blah, blah ..."
+delay = "0.3s"
+
+
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 
 # Call to Action Section

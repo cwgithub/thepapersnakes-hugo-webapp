@@ -22,10 +22,10 @@
                         </a>
                     </li>
                 {{ end }}
-                {{ if .Site.Params.service.enable }}
+                {{ if .Site.Params.video.enable }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "service" | urlize }}">
-                            {{ with .Site.Params.navigation.service }} {{ . }} {{ end }}
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "video" | urlize }}">
+                            {{ with .Site.Params.navigation.video }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}

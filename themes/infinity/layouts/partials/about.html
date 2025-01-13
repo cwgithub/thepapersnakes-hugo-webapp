@@ -3,6 +3,7 @@
     <section id="{{ i18n "about" | urlize }}" class="section about bg-gray">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-7 col-sm-12 wow fadeInLeft">
                     <div class="content">
                         <div class="sub-heading">
@@ -15,13 +16,17 @@
                         {{ end }}
                     </div>
                 </div>
+
                 <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="about-slider">
                         {{ range .Site.Params.about.sliderItem }}
-                            <img src="{{ .image }}" alt="{{ i18n "sliderImage" }}">
+                            {{ if .image }}
+                                <img src="{{ .image }}" alt="{{ i18n "sliderImage" }}">
+                            {{ end }}
                         {{ end }}
                     </div>
                 </div>
+
             </div>
         </div>
     </section>

@@ -1,22 +1,27 @@
-{{ if .Site.Params.service.enable }}
-    {{"<!-- Service Section -->" | safeHTML}}
-    <section id="{{ i18n "service" | urlize }}" class="service section">
+{{ if .Site.Params.song.enable }}
+    {{"<!-- song Section -->" | safeHTML}}
+    <section id="{{ i18n "song" | urlize }}" class="song section">
         <div class="container">
             <div class="row">
                 <div class="heading wow fadeInUp">
-                    {{ with .Site.Params.service.title }}
+                    {{ with .Site.Params.song.title }}
                         <h2>{{ . }}</h2>
                     {{ end }}
-                    {{ with .Site.Params.service.subtitle }}
+                    {{ with .Site.Params.song.subtitle }}
                         <p>{{ . }}</p>
                     {{ end }}
                 </div>
-                {{ range .Site.Params.service.serviceItem }}
-                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .delay }}">
+                {{ range .Site.Params.song.songItem }}
+                    <div class="col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="{{ .delay }}">
                         <div class="block">
                             <i class="{{ .icon }}"></i>
                             <h3>{{ .title }}</h3>
                             <p>{{ .description }}</p>
+
+      
+
+
+
                         </div>
                     </div>
                 {{ end }}

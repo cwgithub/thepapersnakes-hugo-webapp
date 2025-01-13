@@ -26,8 +26,10 @@ seconds:
   other: "Seconds"
 sendMe:
   other: "Send me"
-service:
-  other: service
+song:
+  other: "Song"
+video:
+  other: "Video"
 sliderImage:
   other: "Slider image"
 subscribe:
