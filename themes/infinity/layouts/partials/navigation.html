@@ -22,6 +22,13 @@
                         </a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.song.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "song" | urlize }}">
+                            {{ with .Site.Params.navigation.song }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
                 {{ if .Site.Params.video.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "video" | urlize }}">

@@ -23,7 +23,7 @@ contact = "Contact"
 [params.hero]
 enable = true
 bg = "images/header-bg.jpg"
-title = "BRING YOUR PRODUCT TO LIGHT"
+title = "ThePapersnakes"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
 btnText = "Get Started"
 
@@ -69,31 +69,34 @@ delay = "0.3s"
 youtube = "pobO-P0V6yQ"
 title = "Red Jeans"
 description = "Blah, blah, blah ..."
-delay = "0.6s"
+delay = "0.5s"
+
 
 [[params.video.videoItem]]
 youtube = "tCvgoiFawVU"
 title = "Green Unpleasant"
 description = "Blah, blah, blah ..."
-delay = "0.9s"
+delay = "0.5s"
 
 [[params.video.videoItem]]
 youtube = "BYUVpkzAA-8"
 title = "Beat in the East"
 description = "Blah, blah, blah ..."
-delay = "1.2s"
+delay = "0.5s"
 
 [[params.video.videoItem]]
 youtube = "gf3axNejLBA"
 title = "On My Own"
 description = "Blah, blah, blah ..."
-delay = "1.5s"
+delay = "0.5s"
+
 
 [[params.video.videoItem]]
 youtube = "YUtuutXIx5s"
 title = "Hold On"
 description = "Blah, blah, blah ..."
-delay = "1.8"
+delay = "0.5s"
+
 
 
 
@@ -109,9 +112,38 @@ title = "Our Songs"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
 
 [[params.song.songItem]]
-title = "Glimmer of Hope"
+soundcloud_url = "https://soundcloud.com/thepapersnakes/sets/volume-one-1"
+title = "VOLUME ONE"
 description = "Blah, blah, blah ..."
 delay = "0.3s"
+
+[[params.song.songItem]]
+soundcloud_url = "https://soundcloud.com/thepapersnakes/dont-shout-it"
+single = true
+title = "Don't Shout It"
+description = "Blah, blah, blah ..."
+delay = "0.3s"
+
+[[params.song.songItem]]
+soundcloud_url = "https://soundcloud.com/thepapersnakes/too-much-too-young-1"
+single = true
+title = "Too Much Too Young"
+description = "Blah, blah, blah ..."
+delay = "0.3s"
+
+[[params.song.songItem]]
+soundcloud_url = "https://soundcloud.com/thepapersnakes/hero"
+single = true
+title = "Hero"
+description = "Blah, blah, blah ..."
+delay = "0.3s"
+
+# [[params.song.songItem]]
+# spotify_url = "https://open.spotify.com/track/3JUg7f0maidbFHYDEFE2og"
+# title = "Bare Back Reindeer"
+# description = "Blah, blah, blah ..."
+# delay = "0.3s"
+
 
 
 # -----------------------------------------------------------------------------

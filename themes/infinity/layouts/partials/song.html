@@ -18,8 +18,39 @@
                             <h3>{{ .title }}</h3>
                             <p>{{ .description }}</p>
 
-      
+                            <h1>HELLO!</h1>        
+                            {{ if .soundcloud_url }}
 
+                            {{ if .single }}
+                            <iframe width="100%" scrolling="no" frameborder="no" 
+                                allow="autoplay" 
+                                src="https://w.soundcloud.com/player/?url={{ .soundcloud_url }}">
+                            </iframe>
+                            {{ else }}
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" 
+                                allow="autoplay" 
+                                src="https://w.soundcloud.com/player/?url={{ .soundcloud_url }}">
+                            </iframe>
+                            {{ end }}
+
+
+
+
+
+                            {{ end }}
+
+                            {{ if .spotify_url }}
+
+                                <!-- <iframe style="border-radius:12px" 
+                                        src="{{ .spotify_url }}" 
+                                        width="300" 
+                                        height="380" 
+                                        frameborder="0" 
+                                        allowfullscreen="" 
+                                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                                </iframe> -->
+            
+                            {{ end }}
 
 
                         </div>
