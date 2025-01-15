@@ -5,14 +5,13 @@ theme = "infinity"
 publishDir = "public"
 
 
-
 # HTML before the closing </head>
 [params]
 customHead = ""
 
 # Navigation
 [params.navigation]
-logo = "images/logo.png"
+logo = "images/hero/logo-white-small.png"
 home = "Home"
 bio = "Bio"
 video = "Video"
@@ -23,8 +22,8 @@ contact = "Contact"
 [params.hero]
 enable = true
 bg = "images/header-bg.jpg"
-image = "images/hero/logo-white.png"
-subtitle = "Singer Soundwriters"
+image = "images/hero/logo-black.png"
+subtitle = "Singer Soungwriters"
 btnText = "Get Started"
 
 # counter
@@ -43,6 +42,10 @@ heading = "Bio"
 image = "images/photos/chris-1.jpg"
 [[params.bio.sliderItem]]
 image = "images/photos/paul-1.jpg"
+[[params.bio.sliderItem]]
+image = "images/photos/papersnakes high st.jpg"
+[[params.bio.sliderItem]]
+image = "images/photos/street.jpg"
 
 
 # -----------------------------------------------------------------------------
