@@ -23,7 +23,7 @@ contact = "Contact"
 enable = true
 bg = "images/header-bg.jpg"
 image = "images/hero/logo-black.png"
-subtitle = "Singer Soungwriters"
+subtitle = "Singer Songwriters"
 btnText = "Get Started"
 
 # counter
