@@ -6,7 +6,7 @@ body {
   font-weight: 300;
   line-height: 25px;
   color: #3b4045;
-  font: 14px/22px 'Cabin', sans-serif, Helvetica, Arial, sans-serif;
+  font: 14px/22px "Cabin", sans-serif, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -102,7 +102,7 @@ a:active {
 }
 
 .heading p {
-  font-family: 'Cabin', serif;
+  font-family: "Cabin", serif;
   font-size: 15px;
   line-height: 24px;
   font-weight: 300;
@@ -281,6 +281,10 @@ a:active {
   background: #f8f8f8;
 }
 
+.bg-ps-pink {
+  background: #D2BED7
+}
+
 .hero-area {
   background-size: cover;
   background-attachment: fixed;
@@ -336,7 +340,7 @@ a:active {
   height: 60px;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
   .hero-area .counter ul li .digit {
     font-size: 30px;
     line-height: 30px;
@@ -438,7 +442,6 @@ a:active {
   color: #666;
 }
 
-
 /*--
     video start
 --*/
@@ -470,22 +473,19 @@ a:active {
   color: #666;
 }
 
-
-
-
 /*--
-    About start
+    Bio start
 --*/
-.about .content h3 {
+.bio .content h3 {
   font-size: 26px;
   font-weight: 300;
   line-height: 36px;
   color: #7e7e7e;
   margin-bottom: 20px;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
 }
 
-.about .about-slider img {
+.bio .bio-slider img {
   width: 100%;
   height: auto;
 }
@@ -578,7 +578,7 @@ a:active {
   color: rgba(237, 28, 36, 0.7);
 }
 
-.form-group .input-field+.input-field {
+.form-group .input-field + .input-field {
   margin-top: 10px;
 }
 

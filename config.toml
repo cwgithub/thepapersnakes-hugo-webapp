@@ -14,7 +14,7 @@ customHead = ""
 [params.navigation]
 logo = "images/logo.png"
 home = "Home"
-about = "About"
+bio = "Bio"
 video = "Video"
 song = "Song"
 contact = "Contact"
@@ -23,8 +23,8 @@ contact = "Contact"
 [params.hero]
 enable = true
 bg = "images/header-bg.jpg"
-title = "ThePapersnakes"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+image = "images/hero/logo-white.png"
+subtitle = "Singer Soundwriters"
 btnText = "Get Started"
 
 # counter
@@ -33,20 +33,16 @@ countdownYear = "2022"
 countdownMonth = "12"
 countdownDay = "31"
 
-# About Section
-[params.about]
+# Bio Section
+[params.bio]
 enable = true
-heading = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+heading = "Bio"
+# description = "ThePapersnakes is the song writing and performing partnership of Paul Kerr (guitar) and Chris Ward (bass).The pair first met when battling to monopolise the CD player at house parties. Armed with a strong set of shared influences they started writing together in 2007. Their influences span rock, pop, funk, reggae and ska and a love for classic disco.The band's style features bold guitar parts and memorable basslines to create their distinctive, full-of-energy sound.  Their performances always keep true to their "light and shade" motto.  This results in a mix of up-tempo bangers and stripped-back slow songs.Their covers list reflects their varied influences. From Prince to Paul Weller, from Bob Marley to Amy Winehouse.From the start, the ThePapersnakes have focused on writing and performing original material. Their songs have featured in every gig in their extensive playing history.They often now play shows which are only original songs.The band do all their own studio recording and production in their "2Snakes" studio. They have released many of their songs on streaming platforms and on CD.In 2021 they ran a successful crowdfunding project to fund their first vinyl release. This nine song album of original songs, named "Volume One", is due to land in September 2022. They often play live on local radio. This has ranged from small community radio stations to some BBC stations.They are very active playing on their local music scene, often at large organised events. In May 2022 they played the main stage at the Rickmansworth Festival to an audience of more than 2,500. ThePapersnakes perform either as a duo, using a variety of technology to expand their sound. or as a three-piece band with drummer Andy Vellacott.The band also produce their own cover artwork. One piece was accepted for an exhibition outside the central St. Albans Arts Centre in 2022."
 
-[[params.about.sliderItem]]
-image = "images/about/1.jpg"
-[[params.about.sliderItem]]
-image = "images/about/2.jpg"
-[[params.about.sliderItem]]
-image = "images/about/3.jpg"
-[[params.about.sliderItem]]
-image = "images/about/2.jpg"
+[[params.bio.sliderItem]]
+image = "images/photos/chris-1.jpg"
+[[params.bio.sliderItem]]
+image = "images/photos/paul-1.jpg"
 
 
 # -----------------------------------------------------------------------------
@@ -89,7 +85,6 @@ youtube = "gf3axNejLBA"
 title = "On My Own"
 description = "Blah, blah, blah ..."
 delay = "0.5s"
-
 
 [[params.video.videoItem]]
 youtube = "YUtuutXIx5s"

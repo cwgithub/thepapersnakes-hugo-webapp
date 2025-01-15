@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     
 
-    $(".about-slider").owlCarousel({
+    $(".bio-slider").owlCarousel({
         singleItem: true,
         pagination: true,
         autoPlay: 5000,

@@ -13,7 +13,7 @@ customHead = ""
 [params.navigation]
 logo = "images/logo.png"
 home = "Home"
-about = "About"
+bio = "Bio"
 song = "Songs"
 contact = "Contact"
 
@@ -31,20 +31,20 @@ countdownYear = "2022"
 countdownMonth = "12"
 countdownDay = "31"
 
-# About Section
-[params.about]
+# Bio Section
+[params.bio]
 enable = true
 heading = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
 
-[[params.about.sliderItem]]
-image = "images/about/1.jpg"
-[[params.about.sliderItem]]
-image = "images/about/2.jpg"
-[[params.about.sliderItem]]
-image = "images/about/3.jpg"
-[[params.about.sliderItem]]
-image = "images/about/2.jpg"
+[[params.bio.sliderItem]]
+image = "images/bio/1.jpg"
+[[params.bio.sliderItem]]
+image = "images/bio/2.jpg"
+[[params.bio.sliderItem]]
+image = "images/bio/3.jpg"
+[[params.bio.sliderItem]]
+image = "images/bio/2.jpg"
 
 
 # Service Section
@@ -54,7 +54,7 @@ title = "Find Better Solutions Build Better Products"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
 [[params.song.songItem]]
 # give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-strategy"
 title = "Fully Responsive"
@@ -63,7 +63,7 @@ delay = "0s"
 
 [[params.song.songItem]]
 # give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-circle-compass"
 title = "Speed Optimized"
@@ -72,7 +72,7 @@ delay = "0.2s"
 
 [[params.song.songItem]]
 # give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-anchor2"
 title = "Tons of Feature"
@@ -81,7 +81,7 @@ delay = "0.4s"
 
 [[params.song.songItem]]
 # give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-globe"
 title = "Fully SEO Optimized"
@@ -90,7 +90,7 @@ delay = "0.6s"
 
 [[params.song.songItem]]
 # give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-strategy"
 title = "Fully Responsive"
@@ -99,7 +99,7 @@ delay = "0.8s"
 
 [[params.song.songItem]]
 # give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-circle-compass"
 title = "Speed Optimized"
@@ -108,7 +108,7 @@ delay = "1s"
 
 [[params.song.songItem]]
 # give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-anchor2"
 title = "Tons of Feature"
@@ -117,7 +117,7 @@ delay = "1.2s"
 
 [[params.song.songItem]]
 # give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon = "tf-globe"
 title = "Fully SEO Optimized"
