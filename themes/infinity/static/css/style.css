@@ -494,7 +494,7 @@ a:active {
     call-to-action start
 --*/
 .call-to-action {
-  padding: 90px 0px;
+  padding: 40px 0px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -521,28 +521,6 @@ a:active {
 .call-to-action .block p {
   padding-right: 30px;
   color: #fff;
-}
-
-.call-to-action .block .input-group {
-  margin-top: 30px;
-}
-
-.call-to-action .block .input-group input {
-  height: 50px;
-  border-radius: 0;
-  border: none;
-  box-shadow: none;
-}
-
-.call-to-action .block .input-group .btn-subscription {
-  height: 50px;
-  border-radius: 0;
-  border: none;
-  box-shadow: none;
-  background: #1bafb4;
-  padding: 0px 35px;
-  color: #fff;
-  font-weight: bold;
 }
 
 .input-field .form-control {
@@ -624,17 +602,22 @@ footer p a:hover {
   font-family: "Courier New", Courier, monospace;
 }
 
+/* ========================================================================= */
+/* Links                                                                     */
+/* ========================================================================= */
+
 .social-icons {
   display: flex;
-  gap: 6px;
+  justify-content: center;
+  gap: 25px;
 }
 
 .social-link {
   color: white;
-  font-size: 1.5rem;
+  font-size: 4rem;
   transition: color 0.3s ease;
 }
 
 .social-link:hover {
-  color: #0073e6;
+  color: #2e669e;
 }
