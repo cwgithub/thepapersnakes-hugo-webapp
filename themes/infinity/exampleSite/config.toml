@@ -5,6 +5,9 @@ theme = "infinity-hugo"
 removePathAccents = true
 
 
+
+
+
 # HTML before the closing </head>
 [params]
 customHead = ""
@@ -71,9 +74,6 @@ description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do
 delay = "0.2s"
 
 [[params.music.songItem]]
-# give icon(themefisher icon font), title, description
-# more bio themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
 icon = "tf-anchor2"
 title = "Tons of Feature"
 description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
@@ -131,6 +131,18 @@ enable = true
 bg = "images/call-to-action.jpg"
 title = "Subscribe to our mailing list"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+social = [
+  { name = "Twitter", url = "https://twitter.com/thepapersnakes?lang=en", icon = "fab fa-twitter" },
+  { name = "Youtube", url = "https://www.youtube.com/@thepapersnakes8534", icon = "fab fa-youtube" },
+  { name = "Soundcloud", url = "https://soundcloud.com/thepapersnakes", icon = "fab fa-soundcloud" },
+  { name = "Spotify", url = "https://open.spotify.com/artist/4LazGuOAEFN0SfH83mDJa4", icon = "fab fa-spotify" },
+  { name = "Apple Music", url = "https://itunes.apple.com/us/artist/thepapersnakes/327364903", icon = "fab fa-apple" },
+  { name = "Amazon", url = "https://amazon.co.uk/music/player/artists/B002LF141G/thepapersnakes?marketplaceId=A1F83G8C2ARO7P&musicTerritory=GB&ref=dm_sh_IPQyOT2B6iyQnHSCHH9OscCeZ", icon = "fab fa-amazon" },
+  { name = "Facebook", url = "https://www.facebook.com/thepapersnakesmusic", icon = "fab fa-facebook" },
+  { name = "Instagram", url = "hthttps://www.instagram.com/thepapersnakes/?hl=en", icon = "fab fa-instagram" },
+
+]
+
 
 [params.contact]
 enable = true

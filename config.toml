@@ -57,7 +57,7 @@ They often now play shows which are only original songs.
 
 The band do all their own studio recording and production in their "2Snakes" studio. They have released many of their songs on streaming platforms and on CD.  
  
-In 2021 they ran a successful crowdfunding project to fund their first vinyl release. This nine music album of original songs,   named "Volume One",   is due to land in September 2022.  
+In 2021 they ran a successful crowdfunding project to fund their first vinyl release. This nine song album of original songs,   named "Volume One",   is due to land in September 2022.  
 
 They often play live on local radio. This has ranged from small community radio stations to some BBC stations.  
 
@@ -108,7 +108,7 @@ delay = "0.5s"
 
 [[params.video.videoItem]]
 youtube = "BYUVpkzAA-8"
-title = "Beat in the East"
+title = "Beast in the East"
 #description = "Blah, blah, blah ..."
 delay = "0.5s"
 
@@ -152,13 +152,6 @@ title = "Don't Shout It"
 delay = "0.3s"
 
 [[params.music.songItem]]
-soundcloud_url = "https://soundcloud.com/thepapersnakes/too-much-too-young-1"
-single = true
-title = "Too Much Too Young"
-description = "Cover of The Specials classic"
-delay = "0.3s"
-
-[[params.music.songItem]]
 soundcloud_url = "https://soundcloud.com/thepapersnakes/hero"
 single = true
 title = "Hero"
@@ -166,13 +159,26 @@ description = """Written to a brief for a local festival on the theme 'Heros'.
 A collaboration with local singer/songwriter Beth Hedges."""
 delay = "0.3s"
 
-# [[params.music.songItem]]
-# spotify_url = "https://open.spotify.com/track/3JUg7f0maidbFHYDEFE2og"
-# title = "Bare Back Reindeer"
-# description = "Blah, blah, blah ..."
-# delay = "0.3s"
+[[params.music.songItem]]
+spotify_id = "6BkPm15IUhmTaUk93eHS1p"
+spotify_type = "album"
+title = "Too Much Too Young"
+description = "Cover of The Specials classic"
+delay = "0.3s"
 
+[[params.music.songItem]]
+spotify_id = "76INDInePPGw5330pHBioi"
+spotify_type = "album"
+title = "Green Unpleasant"
+description = "Extended version"
+delay = "0.3s"
 
+#[[params.music.songItem]]
+#spotify_id = "3JUg7f0maidbFHYDEFE2og"
+#spotify_type = "album"
+#title = "Bare Back Reindeer"
+#description = "Blah, blah, blah ..."
+#delay = "0.3s"
 
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
@@ -184,7 +190,18 @@ delay = "0.3s"
 enable = true
 bg = "images/call-to-action.jpg"
 title = "Links"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+# subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+social = [
+  { name = "Twitter", url = "https://twitter.com/thepapersnakes?lang=en", icon = "fab fa-twitter" },
+  { name = "Youtube", url = "https://www.youtube.com/@thepapersnakes8534", icon = "fab fa-youtube" },
+  { name = "Soundcloud", url = "https://soundcloud.com/thepapersnakes", icon = "fab fa-soundcloud" },
+  { name = "Spotify", url = "https://open.spotify.com/artist/4LazGuOAEFN0SfH83mDJa4", icon = "fab fa-spotify" },
+  { name = "Apple Music", url = "https://itunes.apple.com/us/artist/thepapersnakes/327364903", icon = "fab fa-apple" },
+  { name = "Amazon", url = "https://amazon.co.uk/music/player/artists/B002LF141G/thepapersnakes?marketplaceId=A1F83G8C2ARO7P&musicTerritory=GB&ref=dm_sh_IPQyOT2B6iyQnHSCHH9OscCeZ", icon = "fab fa-amazon" },
+  { name = "Facebook", url = "https://www.facebook.com/thepapersnakesmusic", icon = "fab fa-facebook" },
+  { name = "Instagram", url = "hthttps://www.instagram.com/thepapersnakes/?hl=en", icon = "fab fa-instagram" },
+
+]
 
 [params.contact]
 enable = true

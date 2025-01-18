@@ -623,3 +623,18 @@ footer p a:hover {
   line-height: 20pt;
   font-family: "Courier New", Courier, monospace;
 }
+
+.social-icons {
+  display: flex;
+  gap: 6px;
+}
+
+.social-link {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #0073e6;
+}

@@ -11,20 +11,22 @@ safeHTML}}
           {{ with .Site.Params.links.title }}
           <h2>{{ . }}</h2>
           {{ end }} {{ with .Site.Params.links.subtitle }}
-          <p>{{ . }}</p>
+          <p>{{ . }} </p>
           {{ end }}
-          <!-- <div class="col-lg-6 offset-lg-3">
-                            <div class="input-group">
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder='{{ i18n "yourEmailAddressHere" }}'
-                                >
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default btn-subscription" type="button">{{ i18n "subscribe" }}</button>
-                                </span>
-                            </div>
-                        </div> -->
+
+          <div class="social-icons">
+            {{ range .Site.Params.links.social }}
+            <a
+              href="{{ .url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="{{ .name }}"
+              class="social-link"
+            >
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+            </a>
+            {{ end }}
+          </div>
         </div>
       </div>
     </div>
