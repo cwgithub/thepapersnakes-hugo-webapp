@@ -12,46 +12,12 @@
                         {{ end }}
                         </div>
 
-                        <div class="justified-text">
-                            <p>
-                            ThePapersnakes is the songwriting and performing partnership of Paul Kerr (guitar) and Chris Ward (bass).
-                            </p>
-                            <p>
-                            The pair first met when battling to monopolise the CD player at house parties. Armed with a strong set of shared influences they started writing together in 2007. 
-                            </p>
-                                <p>
-                            Their influences span rock, pop, funk, reggae and ska and a love for classic disco.
-                            </p>
-                            <p>
-                            The band's style features bold guitar parts and memorable basslines to create their distinctive, full-of-energy sound.  Their performances always keep true to their "light and shade" motto.  This results in a mix of up-tempo bangers and stripped-back slow songs.
-                            </p>
-                            <p>
-                            Their covers list reflects their varied influences. From Prince to Paul Weller, from Bob Marley to Amy Winehouse.
-                            </p>
-                            <p>
-                            From the start, the ThePapersnakes have focused on writing and performing original material. Their songs have featured in every gig in their extensive playing history.
-                            </p>
-                            <p>
-                            They often now play shows which are only original songs.
-                            </p>
-                            <p>
-                            The band do all their own studio recording and production in their "2Snakes" studio. They have released many of their songs on streaming platforms and on CD.
-                            </p>
-                            <p>
-                            In 2021 they ran a successful crowdfunding project to fund their first vinyl release. This nine song album of original songs, named "Volume One", is due to land in September 2022.
-                            </p>
-                            <p>
-                            They often play live on local radio. This has ranged from small community radio stations to some BBC stations.
-                            </p>
-                            <p>
-                            They are very active playing on their local music scene, often at large organised events. In May 2022 they played the main stage at the Rickmansworth Festival to an audience of more than 2,500. 
-                            </p>
-                            <p>
-                            ThePapersnakes perform either as a duo, using a variety of technology to expand their sound. or as a three-piece band with drummer Andy Vellacott.
-                            </p>
-                            <p>
-                            The band also produce their own cover artwork. One piece was accepted for an exhibition outside the central St. Albans Arts Centre in 2022.
-                            </p>
+                        <div class="bio-text">
+                        
+                        {{ with .Site.Params.bio.content }}
+                            <h5>{{ . | markdownify }}</h5\>
+                        {{ end }}
+
                         </div>
 
                     </div>

@@ -22,10 +22,10 @@
                         </a>
                     </li>
                 {{ end }}
-                {{ if .Site.Params.song.enable }}
+                {{ if .Site.Params.music.enable }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "song" | urlize }}">
-                            {{ with .Site.Params.navigation.song }} {{ . }} {{ end }}
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "music" | urlize }}">
+                            {{ with .Site.Params.navigation.music }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}

@@ -26,8 +26,8 @@ seconds:
   other: "Seconds"
 sendMe:
   other: "Send me"
-song:
-  other: "Song"
+music:
+  other: "Music"
 video:
   other: "Video"
 sliderImage:

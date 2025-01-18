@@ -282,7 +282,7 @@ a:active {
 }
 
 .bg-ps-pink {
-  background: #D2BED7
+  background: #d2bed7;
 }
 
 .hero-area {
@@ -412,24 +412,24 @@ a:active {
 }
 
 /*--
-    song start
+    music start
 --*/
-.song {
+.music {
   text-align: center;
 }
 
-.song .block {
+.music .block {
   margin-bottom: 50px;
 }
 
-.song .block i {
+.music .block i {
   font-size: 30px;
   display: inline-block;
   margin-bottom: 15px;
   color: #1bafb4;
 }
 
-.song .block h3 {
+.music .block h3 {
   color: #333333;
   font-weight: 600;
   font-size: 18px;
@@ -438,7 +438,7 @@ a:active {
   text-transform: uppercase;
 }
 
-.song .block p {
+.music .block p {
   color: #666;
 }
 
@@ -618,6 +618,8 @@ footer p a:hover {
   text-decoration: none;
 }
 
-.justified-text p {
-    text-align: justify;
+.bio-text p {
+  text-align: left;
+  line-height: 20pt;
+  font-family: "Courier New", Courier, monospace;
 }
