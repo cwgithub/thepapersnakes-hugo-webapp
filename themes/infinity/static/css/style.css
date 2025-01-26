@@ -560,16 +560,19 @@ footer p a:hover {
   background: rgba(235, 173, 173, 0.7);
 }
 
-.links .links-block h2 {
-  font-size: 30px;
+/* .links .links-block h2 {
+  font-size: 20px;
   margin-bottom: 6px;
   font-weight: 600;
   color: #fff;
-}
+} */
 
-.links .links-block p {
-  padding-right: 30px;
+.links-block {
+  outline: 1px white solid;
+  padding: 5px;
+  padding-right: 20px;
   color: #fff;
+  outline: 1px white solid;
 }
 
 .social-icons {
