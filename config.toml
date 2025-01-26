@@ -189,11 +189,34 @@ title = "VOLUME ONE - Singles Covers"
 description = "Blah, blah, blah ..."
 delay = "0.5s"
 
+
+
+# ---------------------------------------------------------------------------------
 [[params.cover.coverItem]]
 title = "Round and Round"
 description = "Digital & physical collage, available as framed print.  Layered '3D' version available."
 image = "images/covers/R&R 300 DPI - 3000 x 3000 px.jpeg"
 delay = "0.5s"
+
+  [[params.cover.coverItem.thumbnail]]
+  title = "Round and Round"
+  description = "Layered '3D' in deep box frame."
+  image = "images/covers/r&r/1.jpg"
+  delay = "0.5s"
+
+  [[params.cover.coverItem.thumbnail]]
+  description = "Framed print and Layered '3D' in deep box frame."
+  image = "images/covers/r&r/2.jpg"
+  delay = "0.5s"
+
+  [[params.cover.coverItem.thumbnail]]
+  title = "Round and Round"
+  description = "Layered '3D' in deep box frame."
+  image = "images/covers/r&r/3.jpg"
+  delay = "0.5s"
+
+
+# ---------------------------------------------------------------------------------
 
 [[params.cover.coverItem]]
 title = "Red Jeans"
