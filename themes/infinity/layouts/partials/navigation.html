@@ -14,13 +14,44 @@
 
 
         <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+
             <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
+
+        <div class="links-block">
+          {{ with .Site.Params.links.title }}
+          <h2>{{ . }}</h2>
+          {{ end }} {{ with .Site.Params.links.subtitle }}
+          <p>{{ . }} </p>
+          {{ end }}
+
+          <div class="social-icons">
+            {{ range .Site.Params.links.social }}
+            <a
+              href="{{ .url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="{{ .name }}"
+              class="social-link"
+            >
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+            </a>
+            {{ end }}
+          </div>
+        </div>
+
+
                 <li class="nav-item active">
                     <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "home" | urlize }}">
                         {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
                     </a>
                 </li>
-                
+
+
+
+
+
+
+
                 {{ if .Site.Params.bio.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "bio" | urlize }}">

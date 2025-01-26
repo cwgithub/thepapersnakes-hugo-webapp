@@ -215,14 +215,7 @@ delay = "0.5s"
   image = "images/covers/r&r/3.jpg"
   delay = "0.5s"
 
-
 # ---------------------------------------------------------------------------------
-
-[[params.cover.coverItem]]
-title = "Red Jeans"
-description = "Digital collage - features the background design used on the VOLUME ONE cover."
-image = "images/covers/Red Jeans.png"
-delay = "0.5s"
 
 [[params.cover.coverItem]]
 title = "All I Want Is"
@@ -234,6 +227,12 @@ delay = "0.5s"
 title = "Hold On"
 description = "Original photograph. London Wall, London"
 image = "images/covers/Hold On.png"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Red Jeans"
+description = "Digital collage - features the background design used on the VOLUME ONE cover."
+image = "images/covers/Red Jeans.png"
 delay = "0.5s"
 
 [[params.cover.coverItem]]
@@ -266,21 +265,14 @@ description = "Digital Collage"
 image = "images/covers/On My Own.jpeg"
 delay = "0.5s"
 
-
-
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 
-
-
-
-# Call to Action Section
+# Links
 [params.links]
 enable = true
 bg = "images/call-to-action.jpg"
-title = "Links"
-# subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
 social = [
   { name = "Twitter", url = "https://twitter.com/thepapersnakes?lang=en", icon = "fab fa-twitter" },
   { name = "Youtube", url = "https://www.youtube.com/@thepapersnakes8534", icon = "fab fa-youtube" },

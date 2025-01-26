@@ -507,90 +507,6 @@ a:active {
   height: auto;
 }
 
-/*--
-    call-to-action start
---*/
-.call-to-action {
-  padding: 40px 0px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.call-to-action:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.call-to-action .block h2 {
-  font-size: 30px;
-  margin-bottom: 6px;
-  font-weight: 600;
-  color: #fff;
-}
-
-.call-to-action .block p {
-  padding-right: 30px;
-  color: #fff;
-}
-
-.input-field .form-control {
-  box-shadow: none;
-  background: #f5f5f5;
-  border: none;
-  width: 100%;
-  height: 50px;
-  padding-left: 20px;
-  font-weight: 500;
-  border-radius: 0;
-}
-
-.btn-send {
-  line-height: 48px;
-  border: 2px solid #1bafb4;
-  background: #1bafb4;
-  color: #fff;
-  width: 100%;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 0;
-  margin-top: 10px;
-}
-
-.btn-send:hover {
-  color: #fff;
-}
-
-.input-field label {
-  color: rgba(237, 28, 36, 0.7);
-}
-
-.form-group .input-field + .input-field {
-  margin-top: 10px;
-}
-
-.input-field textarea.form-control {
-  height: 160px;
-  box-shadow: none;
-}
-
-.form-group {
-  margin-top: 10px;
-}
-
-#success,
-#error {
-  display: none;
-}
-
 footer {
   text-align: center;
   background: #272727;
@@ -623,6 +539,39 @@ footer p a:hover {
 /* Links                                                                     */
 /* ========================================================================= */
 
+/*--
+    links start
+--*/
+.links {
+  height: 100px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.links:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(235, 173, 173, 0.7);
+}
+
+.links .links-block h2 {
+  font-size: 30px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.links .links-block p {
+  padding-right: 30px;
+  color: #fff;
+}
+
 .social-icons {
   display: flex;
   justify-content: center;
@@ -631,7 +580,7 @@ footer p a:hover {
 
 .social-link {
   color: white;
-  font-size: 4rem;
+  font-size: 2rem;
   transition: color 0.3s ease;
 }
 

@@ -1,35 +1,10 @@
 {{ if .Site.Params.links.enable }} {{"<!-- Call To Action Section -->" |
 safeHTML}}
+
 <section
-  class="call-to-action"
+  class="links"
   style='background-image: url("{{ with .Site.Params.links.bg }}{{.}}{{ end }}")'
 >
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 wow text-center">
-        <div class="block">
-          {{ with .Site.Params.links.title }}
-          <h2>{{ . }}</h2>
-          {{ end }} {{ with .Site.Params.links.subtitle }}
-          <p>{{ . }} </p>
-          {{ end }}
 
-          <div class="social-icons">
-            {{ range .Site.Params.links.social }}
-            <a
-              href="{{ .url }}"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="{{ .name }}"
-              class="social-link"
-            >
-              <i class="{{ .icon }}" aria-hidden="true"></i>
-            </a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 {{ end }}
