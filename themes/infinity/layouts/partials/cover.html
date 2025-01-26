@@ -22,24 +22,20 @@
                             <h3>{{ .title }}</h3>
                             <p style="color: black; margin-bottom: 20px;margin-top: 20px;">{{ .description | markdownify }}</p>
                             {{ if .image }}
-                                <img width="75%" src="{{ .image }}" alt="{{ i18n "sliderImage" }}" style="outline: 1px black solid;filter: drop-shadow(20px 20px 4px #a3a3a4);">
+                                <img width="66%" src="{{ .image }}" alt="{{ i18n "sliderImage" }}" style="outline: 1px black solid;filter: drop-shadow(20px 20px 4px #a3a3a4);">
                             {{ end }}
                         </div>
                     </div>
 
                     {{ range .thumbnail }}
                         <div class="col-sm-4 col-md-4 wow fadeInLeft" data-wow-delay="{{ .delay }}">
-
                             <p style="color: black; margin-bottom: 20px;margin-top: 20px;">{{ .description | markdownify }}</p>
-
                             <a href="{{ .image }}" target="_blank">
                                 <img width="100%" src="{{ .image }}" alt="{{ i18n "sliderImage" }}">
                             </a>
                         </div>
                     {{ end }}
                 {{ end }}
-
-
 
             </div> <!-- 1 -->
         </div> <!-- 2 -->
