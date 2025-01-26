@@ -15,6 +15,7 @@ logo = "images/hero/logo-white-small.png"
 home = "Home"
 bio = "Bio"
 video = "Videos"
+cover = "Cover Art"
 music = "Music"
 contact = "Contact"
 
@@ -125,8 +126,6 @@ title = "Hold On"
 delay = "0.5s"
 
 
-
-
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
@@ -184,6 +183,74 @@ delay = "0.3s"
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 
+[params.cover]
+enable = true
+title = "VOLUME ONE - Singles Covers"
+description = "Blah, blah, blah ..."
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Round and Round"
+description = "Digital & physical collage, available as framed print.  Layered '3D' version available."
+image = "images/covers/R&R 300 DPI - 3000 x 3000 px.jpeg"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Red Jeans"
+description = "Digital collage - features the background design used on the VOLUME ONE cover."
+image = "images/covers/Red Jeans.png"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "All I Want Is"
+description = "Original photograph. Moorgate, London."
+image = "images/covers/All I Want Is.jpeg"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Hold On"
+description = "Original photograph. London Wall, London"
+image = "images/covers/Hold On.png"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Beast in the East"
+description = "Digitial collage - '2016 : Syria | Trump | Brexit'"
+image = "images/covers/Beast in the East.jpg"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Green Unpleasant"
+description = "(Single version) - Features background still from song video."
+image = "images/covers/cover-2000px-300dpi.jpg"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Fields of Dreams"
+description = "Internet stock image background"
+image = "images/covers/Fields of Dreams.jpg"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Glimmer of Hope"
+description = "Internet stock image background"
+image = "images/covers/Glimmer of Hope 3112x3009.jpg"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "On My Own"
+description = "Digital Collage"
+image = "images/covers/On My Own.jpeg"
+delay = "0.5s"
+
+
+
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+
+
+
 
 # Call to Action Section
 [params.links]
@@ -207,3 +274,4 @@ social = [
 enable = true
 title = "Get In Touch"
 subtitle = "Drop us a message!"
+email="info@thepapersnakes.co.uk"

@@ -1,0 +1,5 @@
+{
+  "plugins": ["prettier-plugin-go-template"],
+  "printWidth": 80,
+  "htmlWhitespaceSensitivity": "ignore"
+}

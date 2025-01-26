@@ -1,5 +1,5 @@
 {{ if .Site.Params.music.enable }}
-    {{"<!-- music Section -->" | safeHTML}}
+    {{"<!-- Music Section -->" | safeHTML}}
     <section id="{{ i18n "music" | urlize }}" class="music section">
         <div class="container">
             <div class="row">
@@ -51,8 +51,9 @@
 
                         </div>
                     </div>
+                    
                 {{ end }}
-            </div>
-        </div>
+            </div> <!-- 1 -->
+        </div> <!-- 2 -->
     </section>
 {{ end }}

@@ -1,10 +1,6 @@
-
-
-
 {{ if .Site.Params.video.enable }}
-    {{"<!-- video Section -->" | safeHTML}}
+    {{"<!-- Video Section -->" | safeHTML}}
     <section id="{{ i18n "video" | urlize }}" class="video section bg-ps-pink">
-
         <div class="container">
             <div class="row">
                 <div class="heading wow fadeInUp">
@@ -23,7 +19,7 @@
                             <h3>{{ .title }}</h3>
                             <p>{{ .description }}</p>
                             {{ if .youtube }}
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .youtube }}" frameborder="0" allowfullscreen></iframe>
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ .youtube }}" frameborder="0" allowfullscreen></iframe>
                             {{ end }}
                         </div>
                     </div>

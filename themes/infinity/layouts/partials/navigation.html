@@ -20,6 +20,7 @@
                         {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
                     </a>
                 </li>
+                
                 {{ if .Site.Params.bio.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "bio" | urlize }}">
@@ -27,6 +28,7 @@
                         </a>
                     </li>
                 {{ end }}
+
                 {{ if .Site.Params.music.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "music" | urlize }}">
@@ -34,6 +36,8 @@
                         </a>
                     </li>
                 {{ end }}
+                              
+
                 {{ if .Site.Params.video.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "video" | urlize }}">
@@ -41,6 +45,15 @@
                         </a>
                     </li>
                 {{ end }}
+
+                {{ if .Site.Params.cover.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "cover" | urlize }}">
+                            {{ with .Site.Params.navigation.cover }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+
                 {{ if .Site.Params.contact.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "contact" | urlize }}">

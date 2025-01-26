@@ -1,23 +1,22 @@
 {{ if .Site.Params.bio.enable }}
-    {{"<!-- About Section -->" | safeHTML}}
+    {{"<!-- Bio Section -->" | safeHTML}}
     <section id="{{ i18n "bio" | urlize }}" class="section bio bg-gray">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-7 col-sm-12 wow fadeInLeft">
                     <div class="content">
+
                         <div class="sub-heading">
-                        {{ with .Site.Params.bio.heading }}
-                            <h3>{{ . }}</h3>
-                        {{ end }}
+                            {{ with .Site.Params.bio.heading }}
+                                <h3>{{ . }}</h3>
+                            {{ end }}
                         </div>
 
                         <div class="bio-text">
-                        
-                        {{ with .Site.Params.bio.content }}
-                            <h5>{{ . | markdownify }}</h5\>
-                        {{ end }}
-
+                            {{ with .Site.Params.bio.content }}
+                                <h5>{{ . | markdownify }}</h5\>
+                            {{ end }}
                         </div>
 
                     </div>

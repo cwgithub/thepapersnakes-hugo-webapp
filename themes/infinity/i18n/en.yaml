@@ -30,6 +30,8 @@ music:
   other: "Music"
 video:
   other: "Video"
+cover:
+  other: "Cover"  
 sliderImage:
   other: "Slider image"
 subscribe:

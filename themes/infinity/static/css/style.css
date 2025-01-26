@@ -6,7 +6,12 @@ body {
   font-weight: 300;
   line-height: 25px;
   color: #3b4045;
-  font: 14px/22px "Cabin", sans-serif, Helvetica, Arial, sans-serif;
+  font:
+    14px/22px "Cabin",
+    sans-serif,
+    Helvetica,
+    Arial,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -281,8 +286,20 @@ a:active {
   background: #f8f8f8;
 }
 
+.bg-ps-neutral {
+  background: #c0c6c6;
+}
+
+.bg-ps-orange {
+  background: #f0804f;
+}
+
 .bg-ps-pink {
-  background: #d2bed7;
+  background: #cfcae1;
+}
+
+.bg-ps-yellow {
+  background: #f7f9cc;
 }
 
 .hero-area {
@@ -620,4 +637,35 @@ footer p a:hover {
 
 .social-link:hover {
   color: #2e669e;
+}
+
+/*--
+    Cover start
+--*/
+.cover {
+  text-align: center;
+}
+
+.cover .block {
+  margin-bottom: 50px;
+}
+
+.cover .block i {
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #1bafb4;
+}
+
+.cover .block h3 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cover .block p {
+  color: orange;
 }
