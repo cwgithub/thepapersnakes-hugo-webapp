@@ -22,7 +22,7 @@
                             <h3>{{ .title }}</h3>
                             <p style="color: black; margin-bottom: 20px;margin-top: 20px;">{{ .description | markdownify }}</p>
                             {{ if .image }}
-                                <img width="50%" src="{{ .image }}" alt="{{ i18n "sliderImage" }}">
+                                <img width="75%" src="{{ .image }}" alt="{{ i18n "sliderImage" }}" style="outline: 1px black solid;filter: drop-shadow(20px 20px 4px #a3a3a4);">
                             {{ end }}
                         </div>
                     </div>

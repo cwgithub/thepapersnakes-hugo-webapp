@@ -201,18 +201,18 @@ delay = "0.5s"
   [[params.cover.coverItem.thumbnail]]
   title = "Round and Round"
   description = "Layered '3D' in deep box frame."
-  image = "images/covers/r&r/1.jpg"
+  image = "images/covers/thumbs/1.jpg"
   delay = "0.5s"
 
   [[params.cover.coverItem.thumbnail]]
   description = "Framed print and Layered '3D' in deep box frame."
-  image = "images/covers/r&r/2.jpg"
+  image = "images/covers/thumbs/2.jpg"
   delay = "0.5s"
 
   [[params.cover.coverItem.thumbnail]]
   title = "Round and Round"
   description = "Layered '3D' in deep box frame."
-  image = "images/covers/r&r/3.jpg"
+  image = "images/covers/thumbs/3.jpg"
   delay = "0.5s"
 
 # ---------------------------------------------------------------------------------
