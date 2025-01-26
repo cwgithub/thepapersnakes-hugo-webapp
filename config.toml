@@ -274,14 +274,13 @@ delay = "0.5s"
 enable = true
 bg = "images/call-to-action.jpg"
 social = [
-  { name = "Twitter", url = "https://twitter.com/thepapersnakes?lang=en", icon = "fab fa-twitter" },
+  { name = "Facebook", url = "https://www.facebook.com/thepapersnakesmusic", icon = "fab fa-facebook" },
   { name = "Youtube", url = "https://www.youtube.com/@thepapersnakes8534", icon = "fab fa-youtube" },
   { name = "Soundcloud", url = "https://soundcloud.com/thepapersnakes", icon = "fab fa-soundcloud" },
   { name = "Spotify", url = "https://open.spotify.com/artist/4LazGuOAEFN0SfH83mDJa4", icon = "fab fa-spotify" },
   { name = "Apple Music", url = "https://itunes.apple.com/us/artist/thepapersnakes/327364903", icon = "fab fa-apple" },
-  { name = "Amazon", url = "https://amazon.co.uk/music/player/artists/B002LF141G/thepapersnakes?marketplaceId=A1F83G8C2ARO7P&musicTerritory=GB&ref=dm_sh_IPQyOT2B6iyQnHSCHH9OscCeZ", icon = "fab fa-amazon" },
-  { name = "Facebook", url = "https://www.facebook.com/thepapersnakesmusic", icon = "fab fa-facebook" },
-  { name = "Instagram", url = "hthttps://www.instagram.com/thepapersnakes/?hl=en", icon = "fab fa-instagram" },
+  { name = "Twitter", url = "https://twitter.com/thepapersnakes?lang=en", icon = "fab fa-twitter" },
+  { name = "Instagram", url = "https://www.instagram.com/thepapersnakes/?hl=en", icon = "fab fa-instagram" },
 
 ]
 
