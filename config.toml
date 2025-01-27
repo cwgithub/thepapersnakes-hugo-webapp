@@ -265,6 +265,33 @@ description = "Digital Collage"
 image = "images/covers/On My Own.jpeg"
 delay = "0.5s"
 
+[[params.cover.coverItem]]
+title = "Dont Shout It"
+description = "AI + Digital Collage"
+image = "images/covers/Dont Shout It - 300dpi 3000x3000px.jpg"
+delay = "0.5s"
+
+
+[[params.cover.coverItem]]
+title = "Back Back Reindeer"
+description = "Digital Collage"
+image = "images/covers/Back Back Reindeer - 300dpi - 3000x3000px.jpg"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Too Much Too Young"
+description = "Digitally Manipulated photograph"
+image = "images/covers/Too Much Too Young.jpg"
+delay = "0.5s"
+
+[[params.cover.coverItem]]
+title = "Green Unpleasant - Extended"
+description = "Digitally Manipulated photograph"
+image = "images/covers/Extended Version (Lo Res version) 3000x3000 300dpi.jpg"
+delay = "0.5s"
+
+
+
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
