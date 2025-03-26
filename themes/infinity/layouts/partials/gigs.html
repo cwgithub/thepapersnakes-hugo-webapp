@@ -1,0 +1,33 @@
+{{ if .Site.Params.gigs.enable }}
+    {{"<!-- Music Section -->" | safeHTML}}
+    <section id="{{ i18n "gigs" | urlize }}" class="gigs section bg-ps-neutral">
+        <div class="container">
+            <div class="row">
+                <div class="heading wow fadeInUp">
+                    {{ with .Site.Params.gigs.title }}
+                        <h2>{{ . }} </h2>
+                    {{ end }}
+                    {{ with .Site.Params.gigs.subtitle }}
+                        <h3>{{ . }}</h3>
+                    {{ end }}
+                </div>
+
+
+                {{ range .Site.Params.gigs.gigItem }}
+
+                    <div class="col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="{{ .delay }}">
+                        <div class="block">
+                            <i class="{{ .icon }}"></i>
+                            <h4>{{ .title }}</h4>
+                            <h3>{{ .description | markdownify }}</h3>
+                            {{ if .image }}
+                                <img width="66%" src="{{ .image }}" alt="{{ i18n "sliderImage" }}" style="outline: 1px black solid;filter: drop-shadow(20px 20px 4px #a3a3a4);">
+                            {{ end }}
+                        </div>
+                    </div>
+                    
+                {{ end }}
+            </div> <!-- 1 -->
+        </div> <!-- 2 -->
+    </section>
+{{ end }}

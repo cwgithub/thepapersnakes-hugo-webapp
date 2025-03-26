@@ -459,6 +459,41 @@ a:active {
   color: #666;
 }
 
+
+
+/*--
+    music start
+--*/
+.gigs {
+  text-align: center;
+}
+
+.gigs .block {
+  margin-bottom: 50px;
+}
+
+.gigs .block i {
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #1bafb4;
+}
+
+.gigs .block h3 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.gigs .block p {
+  color: #666;
+}
+
+
+
 /*--
     video start
 --*/

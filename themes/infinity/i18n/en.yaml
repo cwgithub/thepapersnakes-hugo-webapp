@@ -28,6 +28,8 @@ sendMe:
   other: "Send me"
 music:
   other: "Music"
+gigs:
+  other: "Gigs"
 video:
   other: "Video"
 cover:

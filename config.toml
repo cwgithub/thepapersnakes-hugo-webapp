@@ -17,6 +17,7 @@ bio = "Bio"
 video = "Videos"
 cover = "Cover Art"
 music = "Music"
+gigs = "Gigs"
 contact = "Contact"
 
 # Hero Area
@@ -183,13 +184,41 @@ delay = "0.3s"
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 
+# Music Section
+[params.gigs]
+enable = true
+title = "Gigs"
+subtitle = "These are not acoustic duo gigs and will feature ThePapersnakes performing 'fully electric' with a drummer."
+
+
+[[params.gigs.gigItem]]
+title = "St. Albans Spring Festival"
+description = "Sunday 18th May, 1pm Main Stage"
+image = "images/gigs/st-albans.jpg"
+delay = "0.5s"
+
+[[params.gigs.gigItem]]
+title = "Bushey Performing Arts Festival, stage time TBC"
+description = "Sunday 8th June"
+image = "images/gigs/bushey.jpg"
+delay = "0.5s"
+
+
+
+
+
+
+
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+
+
 [params.cover]
 enable = true
 title = "VOLUME ONE - Singles Covers"
 description = "Blah, blah, blah ..."
 delay = "0.5s"
-
-
 
 # ---------------------------------------------------------------------------------
 [[params.cover.coverItem]]

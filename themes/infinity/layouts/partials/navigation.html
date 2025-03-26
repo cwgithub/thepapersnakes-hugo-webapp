@@ -68,6 +68,14 @@
                     </li>
                 {{ end }}
                               
+                {{ if .Site.Params.gigs.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#{{ i18n "gigs" | urlize }}">
+                            {{ with .Site.Params.navigation.gigs }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+
 
                 {{ if .Site.Params.video.enable }}
                     <li class="nav-item">
