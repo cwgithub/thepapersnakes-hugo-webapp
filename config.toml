@@ -1,6 +1,6 @@
 baseURL = 'https://www.thepapersnakes.co.uk/'
 languageCode = 'en'
-title = 'Theapersnakes'
+title = 'ThePapersnakes'
 theme = "infinity"
 publishDir = "public"
 
