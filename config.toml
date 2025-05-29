@@ -188,22 +188,28 @@ delay = "0.3s"
 [params.gigs]
 enable = true
 title = "Gigs"
-subtitle = "These are not acoustic duo gigs and will feature ThePapersnakes performing 'fully electric' with a drummer."
+subtitle = "Upcoming events ..."
 
+
+# [[params.gigs.gigItem]]
+# title = "St. Albans Spring Festival"
+# description = "Sunday 18th May, 1pm Main Stage"
+# image = "images/gigs/st-albans.jpg"
+# delay = "0.5s"
 
 [[params.gigs.gigItem]]
-title = "St. Albans Spring Festival"
-description = "Sunday 18th May, 1pm Main Stage"
-image = "images/gigs/st-albans.jpg"
-delay = "0.5s"
+title = "Bushey Performing Arts Festival"
+description = """
+Sunday 8th June 
 
-[[params.gigs.gigItem]]
-title = "Bushey Performing Arts Festival, stage time TBC"
-description = "Sunday 8th June"
+12:45 on the Forsdyke Stage
+
+15 mins slot, don't be late!
+
+https://www.facebook.com/busheyperformingartsfestival/
+"""
 image = "images/gigs/bushey.jpg"
 delay = "0.5s"
-
-
 
 
 
